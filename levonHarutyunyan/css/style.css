@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.coins{
+    font-size: 5vw;
+    color: #ececec;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+#username{
+    color: #ececec;
+    font-size: 2vw;
+    cursor: pointer;
+}
+body{
+    background-color: #2e5870;
+}
+.logo{
+    width:  10%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 70vw;
+    margin: 0 auto;
+}
+.click{
+    width: 35%;
+    border: 5px aqua solid;
+    border-radius: 50%;
+}
+.main__span{
+    font-size: 3vw;
+    color: #ececec;
+}
+
+#registration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+}
+.container{
+    margin: 4% auto;
+    border: 5px solid #ececec;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 60vw;
+    position: relative;
+    display: none;
+}
+input{
+
+    position: relative;
+    cursor: text;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 16px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #d6d6e7;
+    border-radius: 3px;
+    color: rgb(35, 38, 59);
+    box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);
+    overflow: hidden;
+    transition: all 100ms ease-in-out;
+    :focus {
+        border-color: #3c4fe0;
+        box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+    }
+
+}
+#close__form{
+    cursor: pointer;
+    color: #ececec;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    height: 150%;
+}
+#submit{
+    cursor: pointer;
+
+}
+.plus{
+    color: aquamarine;
+    font-size: 5vw;
+    opacity: 0;
+}
+
+
+
+.fade-in {
+    opacity: 1;
+}
+
+.profile{
+    padding: 2vw;
+    margin: 5% auto;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 5px #ececec solid;
+    height: 70vh;
+    width: 40vw;
+    position: relative;
+    display: none;
+}
+
+.profile > span{
+    font-size: 3vw;
+    color: #ececec;
+}
+.profile__button{
+    background: deeppink;
+    padding: 1vw;
+    color: #ececec;
+    font-size: 1vw;
+}
+#close__profile{
+    cursor: pointer;
+    color: #ececec;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 2vw;
+}

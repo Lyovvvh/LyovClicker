@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="header">
+    <img src="pictures/logo.jpg" alt="" class="logo">
+    <span id="username">SIGN UP</span>
+</header>
+<main id="main">
+    <span class="coins">0</span>
+
+    <span class="plus"><i class="fa-solid fa-plus"></i></span>
+    <img src="pictures/slabiy.jpg" alt="" class="click">
+    <span class="main__span">CLICK THEM</span>
+</main>
+
+    <div class="container">
+        <form action="" id="registration">
+            <input type="text" name="user__nickname" id="user__nickname" placeholder="Nickname" required >
+            <input type="number" name="user__age" id="user__age" placeholder="Age" required min="18" max="100">
+            <input type="email" name="user__id" id="user__mail" placeholder="Email" required>
+            <input type="password" name="user__password" id="user__password" placeholder="Password" required minlength="8" maxlength="8">
+            <input type="submit" name="submit" id="submit" value="SING UP">
+            <span id="close__form"><i class="fa-solid fa-x"></i></span>
+        </form>
+    </div>
+
+    <div class="profile">
+        <span class="profile__id"></span>
+        <span class="profile__coins">0</span>
+        <span class="profile__name">Gago</span>
+        <span class="profile__span">77</span>
+        <span class="profile__mail">mail</span>
+        <button class="profile__button">Delete Profile</button>
+        <span id="close__profile"><i class="fa-solid fa-x"></i></span>
+
+    </div>
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
